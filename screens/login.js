@@ -5,7 +5,7 @@ import {AntDesign } from "@expo/vector-icons"
 
 
 
-export default function login(navigation){
+export default function login({navigation}){
     return (
         <View style={{ flex: 1, alignItems: "center", backgroundColor: "white", justifyContent: "center"}}>
             <Image style={{
@@ -29,9 +29,7 @@ export default function login(navigation){
                 
                  </TouchableOpacity>
 
-                 <TouchableOpacity style={styles.appleBut}>
-                     
-                    
+                 <TouchableOpacity onPress={() => {navigation.navigate("home")}} style={styles.appleBut}>
                  <AntDesign name="apple1" size={24} color="white" />
                      <Text style={styles.appletext}>login with Apple</Text>
                  </TouchableOpacity>
