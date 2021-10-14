@@ -29,15 +29,13 @@ export default function login(navigation){
                 
                  </TouchableOpacity>
 
-                 <Pressable style={styles.appleBut}>
-                     onPress={() => {
-                         navigation.navigate("homen")
-                     }}
+                 <TouchableOpacity style={styles.appleBut}>
+
 
                     
                  <AntDesign name="apple1" size={24} color="white" />
                      <Text style={styles.appletext}>login with Apple</Text>
-                 </Pressable>
+                 </TouchableOpacity>
 
       </View>
 
