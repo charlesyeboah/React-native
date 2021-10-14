@@ -30,35 +30,14 @@ export default function login(navigation){
                  </TouchableOpacity>
 
                  <TouchableOpacity style={styles.appleBut}>
-
-
+                     
                     
                  <AntDesign name="apple1" size={24} color="white" />
                      <Text style={styles.appletext}>login with Apple</Text>
                  </TouchableOpacity>
 
       </View>
-
-
-
-
-             
-
-
-
-          
-
-
-
-
-
-
-
-
-     
-       
-
-       
+  
 
       <View style={styles.lowerView}>
         <Text style={styles.lowerText}>Not a member?</Text>
