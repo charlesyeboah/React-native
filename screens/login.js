@@ -19,10 +19,10 @@ export default function login({navigation}){
             source={require("../assets/bi.jpg")}
             />
             <Text style={styles.welcomeText}>Welcome to</Text>
- 			<Text style={styles.bikeText}>Power Bike Shop</Text> 
+ 			      <Text style={styles.bikeText}>Power Bike Shop</Text> 
 
              <View style={styles.buttonView}>
-                 <TouchableOpacity style={styles.googleBut}>
+                 <TouchableOpacity onPress={() => {navigation.navigate("home")}} style={styles.googleBut}>
                  <AntDesign name="google" size={24} color="black" />
                      <Text style={styles.buttonText}>Login with Gmail</Text>
                      
