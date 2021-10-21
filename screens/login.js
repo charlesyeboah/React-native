@@ -92,6 +92,7 @@ const styles = StyleSheet.create({
   buttonView:{
     width: "100%",
     paddingHorizontal: 20,
+   
 
   },
 
@@ -112,7 +113,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: "center",
     fontWeight: "bold",
-    marginLeft: 15,
+    marginLeft: 30,
     alignItems:"center",
 
 
@@ -139,7 +140,7 @@ appletext:{
   fontSize: 20,
   textAlign: "center",
   fontWeight: "bold",
-  marginLeft: 15,
+  marginLeft: 30,
   alignItems:"center",
 },
 

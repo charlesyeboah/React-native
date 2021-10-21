@@ -7,6 +7,7 @@ import login from "./screens/login";
 import home from "./screens/home";
 
 
+
 export default function App() {
   const MainNavigator = createStackNavigator();
   return (
@@ -15,6 +16,8 @@ export default function App() {
          <MainNavigator.Navigator screenOptions={{ headerShown: false }} initialRouteName="login">
           <MainNavigator.Screen name="login" component={login}/>
           <MainNavigator.Screen name="home" component={home}/>
+          
+
         </MainNavigator.Navigator>
       </NavigationContainer>
      
