@@ -5,6 +5,7 @@ import {NavigationContainer} from "@react-navigation/native"
 import {createStackNavigator} from "@react-navigation/stack"
 import login from "./screens/login";
 import home from "./screens/home";
+import cart from "./screens/cart";
 
 
 
@@ -16,6 +17,7 @@ export default function App() {
          <MainNavigator.Navigator screenOptions={{ headerShown: false }} initialRouteName="login">
           <MainNavigator.Screen name="login" component={login}/>
           <MainNavigator.Screen name="home" component={home}/>
+          <MainNavigator.Screen name="cart" component={cart}/>
           
 
         </MainNavigator.Navigator>
